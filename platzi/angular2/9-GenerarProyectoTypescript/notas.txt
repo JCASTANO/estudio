@@ -1,0 +1,22 @@
+Para iniciar un proyecto con typescript usamos tsc --init
+Esto crea un archivo tsconfig.json
+
+Tambien se puede usar “npm install -g http-server” 
+y ejecutar “http-server” en el directorio raiz.
+
+npm install -g lite-server
+que tiene refresh automatico para tu sitio, 
+excelente para hacer un prototypo rapidisimo
+
+--------------- Inicio de clase
+
+tsc --init
+tsc --watch
+
+import './archivo';
+
+https://www.npmjs.com/package/lite-server
+
+para iniciar servidor lite-server
+
+system.js https://github.com/systemjs/systemjs

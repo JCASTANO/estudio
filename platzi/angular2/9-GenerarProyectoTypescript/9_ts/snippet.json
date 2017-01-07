@@ -1,0 +1,26 @@
+{
+  "HTML Markup":{
+    "prefix": "markup",
+    "body": [
+  "<!DOCTYPE html>",
+  "<html>",
+  "<head>",
+    "<title>ES6</title>",
+    "<meta charset=\"UTF-8\"/>",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+  "</head>",
+  "<body>",
+  "${javascript:Your javascript just here}",
+  "</body>",
+  "</html>"
+    ],
+    "description": "Markup "
+  },
+  "SystemJS":{
+    "prefix":"systemjs",
+    "body":[
+      "<script type=\"text/javascript\" src=\"https://unpkg.com/systemjs@0.19.39/dist/system.js\"></script>"
+    ],
+    "description":"SystemJS Shortcut"
+  }
+}

@@ -1,0 +1,18 @@
+Creo que en este sentido el curso debería actualizarse, 
+ya no se usa desde las últimas releases los Typings, 
+se usa @types/<nombre-libreria>.
+
+https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declaration-files/
+
+typings
+
+------ Inicio clase
+
+Typings, nos permite tener definiciones de librerías de terceros.
+Para instalarlo usamos npm install typings -g
+Para obtener la referencia a una librería usamos 
+typings install dt~jquery --global --save
+
+definicio de librerias de terceros dentro de typescript
+por ejemplo jquery
+typings install dt~jquery --global --save
