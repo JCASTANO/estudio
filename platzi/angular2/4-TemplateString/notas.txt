@@ -1,0 +1,9 @@
+template string
+
+manejo de cadenas de una forma mas facil
+
+ayuda mucho para concatenar de forma facil
+
+usando el simbolo ` --> ${variable}
+
+metodo join('') elimina las comas de un vector

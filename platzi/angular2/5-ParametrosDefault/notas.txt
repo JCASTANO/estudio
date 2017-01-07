@@ -1,0 +1,12 @@
+functioncoordenadas2(x=0,y=0,z=0){
+            console.log(x,y,z)
+        }
+		
+parametros por default a una funcion
+
+x = x || 0; //forma antigua
+
+coordenadas(3,null,6);
+
+null es un valor asignado y 
+undefined no posee un valor declarado

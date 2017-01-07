@@ -1,0 +1,10 @@
+Conceptos basicos
+
+let,const
+arrow functions
+parametros por default
+template string
+spread operator
+classes
+
+typescript

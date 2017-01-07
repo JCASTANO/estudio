@@ -1,0 +1,22 @@
+Como nota adicional comentar que const permite crear constantes 
+pero sólo funciona con variables que no sean Objetos o Arrays, 
+ya que estos no son inmutables. 
+Es decir, lo que es constante es la referencia a ese Objeto o 
+Array pero las propiedades o variables internas pueden 
+ser modificadas
+
+const obj1 = { name: "mi nombre" }
+obj1 = { prop2: "otra propiedad" } //Esta asignación 
+fallará ya que no es posible modificar la referencia almacenada
+obj1.name = "nuevo nombre" //Esta asignación si es 
+posible dado que modificamos internamente 
+la propiedad noel objeto en sí
+
+Si queremos hacer un Objeto o Matriz inmutables 
+debemos usar el método freeze de Object tal que así:
+
+Object.freeze(obj);
+obj.name = "nuevo nombre"//No podrá modificar dicha propiedad
+
+uso de let y const
+

@@ -1,0 +1,65 @@
+Typescript es un transpilador que convierte el código 
+que escribimos a JS
+Para instalarlo usamos npm install -g typescript
+Los archivos tienen la extención .ts
+
+Typescript
+
+Herramienta creada por microsoft
+Es un transpilador, todo lo que se escriba en ecmascript 6/2015
+lo hara entendible por todos los navegadores
+se instala via npm
+se crear un archivo.ts
+se compila y genera un archivo .js
+
+let x: number/string/any []
+interface User {
+
+}
+
+class UserAdd {
+	users: User[];
+	add (user: User) {
+		this.users.push(user);
+	}
+}
+
+const u = new UserAdd();
+let user_1 : User = { name: 'Josue',age:30,date:'20/12/2016'}
+u.add(user_1);
+
+para compilar por npm --> tsc --watch archivo.ts
+
+tipos de datos
+tipos de datos complejos con interfaces
+atributos de un tipo especifico
+
+otros editores de texto: visual studio code, webstorm
+
+babel vs typescript
+
+la diferencia entre babel y typescript es que babel 
+sólo permite transpilar de ES6 a ES5 
+(a no ser que uses algún módulo o lo combines mediante GulpJS).
+
+TypeScript permite compilar de TypeScript a ES6 o ES5, 
+con lo que ya llevaría 
+implícita la conversión de ES6 a ES5 si el destino está en ES5.
+
+Documentación: https://www.typescriptlang.org/docs/tutorial.html
+
+se puede usar gulp para automatizar la tarea de compilacion
+
+Le recomiendo usarlo con GulpJS
+-lo único que necesitas hacer generar un package.json(npm init -y)
+-después npm install --save-dev gulp
+-después npm install --save-dev gulp-typescript
+-creas un archivo gulpfile.js
+y creas tus gulp.task(tareas), 
+en lo personal es mejor trabajarlo así.
+
+------------
+
+Archivo tsconfig
+
+https://github.com/TypeStrong/atom-typescript/blob/master/docs/tsconfig.md

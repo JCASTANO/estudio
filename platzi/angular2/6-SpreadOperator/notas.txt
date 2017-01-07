@@ -1,0 +1,9 @@
+const numbers = [1,2,3];
+console.log(...numbers);
+
+functionsuma(x, y, z)
+{
+	return x+y+z;
+}
+let resultado = suma(...numbers);
+console.log(resultado);

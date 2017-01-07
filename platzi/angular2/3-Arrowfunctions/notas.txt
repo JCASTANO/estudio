@@ -1,0 +1,3 @@
+cursos.map( name => console.log(name));
+
+() => {}

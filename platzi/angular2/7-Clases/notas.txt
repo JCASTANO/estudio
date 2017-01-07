@@ -1,0 +1,15 @@
+class Course{
+   constructor(name)
+   {
+	this.name = name;
+   }
+   getName()
+   {
+	console.log(this.name);
+   }
+}
+
+let Angular = new Course('Angular 2');
+Angular.getName();
+
+Clases-Metodos-Constructores
