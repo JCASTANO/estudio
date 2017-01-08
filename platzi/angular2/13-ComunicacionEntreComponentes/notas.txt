@@ -1,0 +1,13 @@
+Un servicio tiene la caracteristica de ser **Singleton y compartir el mismo espacio en memoria ** 
+lo cual permite comunicar diferentes componentes
+
+--- Inicio clases
+
+comunicar varios componentes
+
+nuevo directorio llamado common
+
+en el se llevan las interfaces y lo comun
+
+el uso del decorador input permite comunicar atravez del atributo
+un valor u objeto determinado
