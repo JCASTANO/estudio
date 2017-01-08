@@ -1,0 +1,13 @@
+<linkhref="https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet">
+
+http://learnangular2.com/templates/
+
+Mira cómo usar diferentes tipos de datos en nuestros componentes
+
+El decorador @NgModule el atributo llamado bootstrap 
+
+permite indicar el componente principal
+
+------ Inicio clases
+
+*ngFor="let course of courses"
