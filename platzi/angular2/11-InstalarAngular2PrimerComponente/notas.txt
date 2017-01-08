@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Mi primer app de angular 2</title>
+    <metacharset="UTF-8">
+    <metaname="viewport"content="width=device-width, initial-scale=1">
+    <linkrel="stylesheet"href="styles.css">
+    <!-- 1. Load libraries -->
+     <!-- Polyfill for older browsers -->
+    <scriptsrc="node_modules/core-js/client/shim.min.js"></script>
+    <scriptsrc="node_modules/zone.js/dist/zone.js"></script>
+    <scriptsrc="node_modules/reflect-metadata/Reflect.js"></script>
+    <scriptsrc="node_modules/systemjs/dist/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <scriptsrc="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
+
+Si, hay determinados aspectos que muestran que está por actualizar 
+algunos aspectos como (typings > @types) entre otros.
+
+git clonehttps://github.com/angular/quickstart.git quickstart
+cd quickstart
+npm install
+npm start
+
+https://angular.io/docs/ts/latest/guide/setup.html
+https://github.com/angular/quickstart
+https://angular.io/
+https://angular.io/docs/ts/latest/quickstart.html
+
+Vamos a crear nuestro primer componente,
+Recuerda:
+app.component, contiene la declaración del componente
+app.module, nos permite crear una instancia del componente
+system.js, nos permite traer todo el código necesario.
+
+------ Inicio clase
+
+Ir a la pagina ppal de angular
+quick start
+crear los 3 archivos iniciales de angular
+directorio app
+components
+
+@angular/core
+
+selector:'nombre del componente'
+template:'html'
+
+export class AppComponent
+
+Component-Module,AppComponent
+
+npm start para arrancar el proyecto
