@@ -1,0 +1,22 @@
+No seria mejor poner los providers en @NgModule de app.modules ?
+
+Buenas tardes @abrahan141644, exacto, si el proveedor o 
+Servicio es global es mejor usar el objeto asignado 
+al decorador @ngModule del app.module como comentas.
+
+¿Hay alguna forma para que los templates strings 
+se puedan reconocer como html?, hasta ahora tengo 
+que cambiar el tipo lenguaje de javascript a html y viceversa
+
+definelos como ficheros externos 
+y los importas usando templateURL: ‘fichero.html’
+
+------- Inicio clase
+
+se les pone el sufijo service
+
+Se usa el decorador Injectable
+
+los servicios se comportan como singleton
+
+Object.keys() cuando lo que se quiere iterar no es un arreglo

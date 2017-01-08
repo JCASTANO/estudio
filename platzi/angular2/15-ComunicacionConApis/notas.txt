@@ -1,0 +1,23 @@
+Las promesas se utilizan como una forma de hacer Request Ajax 
+a una Api la cual proporciona ventajas 
+como evitar “Callback Hell” 
+y reutilizacion de codigo, 
+para ver mas informacion 
+por favor mirar el curso de Javascript Definitivo en platzi
+
+Para realizar peticiones a un API es necesario activar 
+el módulo HttpModule para comunicarnos
+
+---- Inicio de clases
+
+simular un api
+generar directorio data
+info.json
+
+en app module se importan los demas modulos
+HttpModule, se pone en HttpModule
+
+import: Injectable,Http,'Promise'
+una promesa va estar esperando los datos
+
+toda promesa recibe una funcion - arrow functions
