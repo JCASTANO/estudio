@@ -1,0 +1,60 @@
+Hola comunidad talvéz algún servicio que me ayude 
+a migrar de angular 1.x al 2? gracias
+
+https://angular.io/docs/ts/latest/guide/upgrade.html
+
+La estructura de carpetas(common,service,components,etc) 
+¿es debido a algún patrón de diseño o solo es una sugerencia 
+del ptofesor?
+
+Solo es una sugerencia.
+
+Aquí hay mas sobre el tema:
+http://stackoverflow.com/questions/35346342/which-type-of-folder-structure-should-be-used-with-angular-2
+
+Otra buena sugerencia seria que revises
+
+https://angular.io/styleguide
+
+aca estan todos los patrones de diseño y convenciones 
+que se recomiendan los creadores de angular asi 
+como la de tu pregunta.
+
+Me gustaria entender mas claramente, 
+en que tipo de proyectos debo optar por desarrollar 
+my aplicación con angularjs? Cuando usarlo? Gracias
+
+Esto es algo que me vengo preguntando desde hace años. 
+Mi conclusion es que vale la pena utilizarlo 
+cuando el proyecto manipula 
+grandes volumenes de información o es complejo.
+Por ejemplo una app para gestionar 
+un sistema bancario en la que 
+hay muchos roles de usuarios y toda clase de secciones.
+
+Reutilizar componentes y conectarlos a distintos 
+servicios en estos casos hace la vida mas simple.
+Lamentablemente siempre veo ejemplos 
+de single page sites, no le veo el beneficio a esos casos.
+Pero si a proyectos grandes.
+
+algo de testing 
+https://www.youtube.com/watch?v=GebFPcfTX8A&t=1224s
+
+Recomiendo este curso muy completo! 
+para las proximas partes 
+https://angular-2-training-book.rangle.io/
+
+Angular 2 Fundamentals: 
+https://ultimateangular.com/angular-2-fundamentals#what-youll-learn
+
+Angular 2 PRO: 
+https://ultimateangular.com/angular-2-pro#what-youll-learn
+
+http://www.arquitecturajava.com/angular-2-y-el-futuro-de-la-web/
+
+Unit testing https://www.youtube.com/watch?v=GebFPcfTX8A&t=1224s
+
+https://platzi.com/blog/crea-componente-angular-2/
+
+https://www.youtube.com/watch?v=YVVjXpquzBE
