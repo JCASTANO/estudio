@@ -1,0 +1,74 @@
+Angular animations
+
+trigger,state,style,transition,animation
+
+para que sea opcional se le pone ?
+
+en la definicio del componente se le pone
+
+animations como un vector
+
+triggers con state
+
+aprendimos con ecmascript2015
+typescript
+componentes
+comunicacion
+
+hola, como puedo dar el paso para la salida a produccion? 
+creación de un war, 
+o de que forma poder hacerlo? 
+termine todo el curso y no veo nada de eso, 
+agradezco me regalen información al respecto.
+
+http://stackoverflow.com/questions/34407482/how-to-deploy-angular-2-application-developed-in-typescript-to-production
+
+Desafios
+
+-Firebase
+https://github.com/angular/angularfire2
+
+-Componente para checkout para finalizar
+-Tener el carrito en todas las paginas menos en las de login
+
+
+Angular augury
+
+Esta herramienta solo se activa en modo de desarrollo? 
+o puedo hacer este debug a una app en produccion?
+
+https://augury.angular.io/
+
+nos ayuda para tener debugging de aplicaciones angular 2
+
+extension de chrome
+
+En herramientas de de desarrollo se ven
+
+los componentes, se tiene visualizacion
+
+a mano derecha se puede modificar los datos
+
+se pueden ver dependecias del componente
+
+---- AngularCli
+
+El CLI se encarga de hacer todo y empaquetarlo, 
+por lo tanto de los empaquetados 
+que hace el CLI va a tener como levantar la webapp y demas
+
+https://github.com/angular/angular-cli
+
+npm install -g angular-cli
+
+generar proyectos de angular desde cero
+
+para validar que este instalado ng help
+
+ng new carrito
+ng serve
+ng generate component cart
+ng generate interface user
+ng generate service cartservice
+
+sirve para generar estructuras vacias con estandares

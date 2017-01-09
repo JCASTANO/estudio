@@ -1,0 +1,109 @@
+No me queda claro por qué en algunos casos se inyecta 
+en providers el servicio 
+(ejemplo AuthService en Course.Component) 
+y en otros no (ejemplo AuthService en Welcome.component 
+no se inyecta en providers y si se usa)
+
+por que al inyectar el servicio al componente padre 
+por así decirlo, 
+los componentes hijos tienen acceso a el, 
+si lo vuelves a inyectar es como que 
+crees una nueva instancia de el servicio
+
+Hola, Si quisiera guardar un 
+header Authorization global 
+que contenga mi token tipo angular 1:
+$http.defaults.headers.common['Authorization'] = token
+
+Agrega HttpModule a tu ngModule.
+Importa las dependencias Http, y Headers de @angular/http.
+Usa la Inyección de Dependencias en tu Servicio o directamente 
+en el componente según tengas tu arquitectura.
+Usa el método append de dichas Headers o 
+cabeceras para agregar ese contenido.
+Sería algo así como:
+
+//archivo app.module.ts
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  imports: [ BrowserModule, HttpModule ],
+  declarations: [ AppComponent ],
+  bootstrap: [ AppComponent ]
+})
+class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+//prueba.service.ts
+import {Injectable} from '@angular/core';
+import {Http, Headers} from '@angular/http';
+
+@Injectable()
+export classPruebaService{
+  privatetoken: string = '12345abcde'
+  
+  constructor(privatehttp: Http) {}
+
+  createAuthorizationHeader(headers: Headers) {
+    headers.append('Authorization', 'Bearer' +
+      this.token; 
+  }
+}
+
+Para generar el token supongo que estarás usando JWT o similar.
+
+Muchas gracias @frankfullstack, pero me refería a algo mas 
+“global”, por ejemplo:
+
+En un services consulto un api rest en el cual me autentico 
+y me regresa un token de mi sesión el api 
+yo quisiera guardar este token en http 
+como se puede hacer en angular 1 
+(como en el ejemplo que mostré anteriormente) 
+y asi cuando quiera hacer otra petición 
+al api que necesite el token 
+no tener que leerlo cada rato 
+de un sessionStorage o algo por el estilo.
+
+Existe en angular 2 una forma de hacer esto?
+
+Buenas noches @isaacarismendi, yo creo que es lo 
+que te comenté, 
+lo agregas al header de cada petición 
+a través del Servicio, 
+aun así podrías o bien almacenarlo en sessionStorage o 
+localStorage o bien usar algún 
+sistema tipo Redis pero no creo que sea necesario, 
+otra opción es usar algún validador temporal 
+para que caduque el token 
+y se renueve en determinadas condiciones.
+
+Si tienes alguna otra duda coméntala 
+y vemos a ver cómo lo podemos resolver.
+
+
+---- Inicio de clases
+
+Servicio de autenticar la aplicacion
+dado que es un servicio se requiere injectable
+router para redirigir
+metodo find de listas en javascript
+localstorage
+
+export interface User {
+	email : string,
+	password: string
+}
+
+formsModule -- se importa el modulo para usar directivas
+de formulario
+
+ngModel
+ngSubmit
+
+#loginForm="ngForm"
+
+implements OnInit
