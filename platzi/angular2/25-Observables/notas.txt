@@ -1,0 +1,27 @@
+Primero es que se pueden ejecutar multiples veces, 
+como los eventos. Es decir que si tu servicio devuelve un 
+Observable y la información es alterada 
+todos los subscriptos a ese observable son notificados.
+Y la segunda diferencia es que puede ser cancelado 
+(como los eventos) una ves subscripto se puede desuscribir.
+
+Buenas, integre el código al proyecto y no actualiza la lista 
+al modificar el API Rest. 
+Se tiene que recargar el browser, 
+la idea del observables debe ser que al 
+cambiar el JSON se actualice inmediatamente como en React no ?
+
+http://reactivex.io/
+
+Inicio clase -----------
+
+Pertenece a reactivex
+
+se puede reemplazar las promesas por observable
+
+mismo comportamiento que una promesas
+
+usada para temas asincronos, arquitectura de streaming
+
+snnipet, pequeña parte de código fuente reusable
+
