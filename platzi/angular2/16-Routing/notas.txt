@@ -1,0 +1,35 @@
+¿Para qué es el + en +params[‘id’]?
+
+Para hacer casting a un numero.
+
+El módulo Router para generar las rutas recibe como parametro: 
+Una coleccion de objetos, con path y component
+
+--- Inicio de clases
+
+Creación de componente inicial welcome
+
+ActivatedRoute,Params
+Location
+
+Normalmente utilizamos constructorpara definir / inicializar 
+algunas variables. 
+pero cuando tenemos alguna tarea 
+relacionada con binding 
+es decir ngOnInit. ngOnInit 
+llamó justo después de la llamada al constructor. 
+también podemos hacer el mismo trabajo en el constructor, 
+pero su prefferable utilizar ngOnInit 
+para iniciar binding.
+
+Mayormente se utiliza ngOnInitpara toda la inicialización 
+/ deceleración y evitar cosas para trabajar en el constructor. 
+El constructor sólo se debe utilizar para inicializar miembros 
+de la clase, pero no debe hacer "trabajo" real.
+
+router para la navegacion
+en appModule se importa el RouterModule
+en los imports
+metodo forRoot
+
+router-oulet
