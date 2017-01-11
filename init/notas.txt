@@ -1,0 +1,28 @@
+Instalar notepad++
+Instalador nodejs
+Instalar typescript -> npm install -g typescript
+Instalar typings -> npm install typings -g
+Instalar lite-server -> npm install -g lite-server
+Instalar atom (va pedir .net framework 4.5.2)
+instalar plugin typescript
+para mostrar extensiones de archivos
+organizar - opciones de carpeta- ocultar extesiones
+instalar git
+instalar meld
+
+git config --global user.email "estebancastanorincon@gmail.com"
+git config --global user.name "Juan Esteban"
+git config --global mergetool.meld.path "/c/Program Files (x86)/Meld/Meld.exe"
+git config --global merge.tool meld
+git config --global mergetool.keepBackup false
+
+instalar tortoisegit
+establecer chrome como programa determinado buscando por inicio
+
+http://es.ccm.net/faq/1741-windows-cambiar-el-navegador-web-predeterminado
+
+Instalar en chrome https://augury.angular.io/
+
+npm install -g angular-cli
+
+instalar lightshot
