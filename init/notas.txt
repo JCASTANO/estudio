@@ -4,7 +4,7 @@ Instalar typescript -> npm install -g typescript
 Instalar typings -> npm install typings -g
 Instalar lite-server -> npm install -g lite-server
 Instalar atom (va pedir .net framework 4.5.2)
-instalar plugin typescript
+instalar plugin atom-typescript
 para mostrar extensiones de archivos
 organizar - opciones de carpeta- ocultar extesiones
 instalar git
@@ -26,3 +26,7 @@ Instalar en chrome https://augury.angular.io/
 npm install -g angular-cli
 
 instalar lightshot
+
+preguntar donde se guardaran los archivos antes de descargarlos
+
+instalar vstoolsforxamarin
