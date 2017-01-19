@@ -12,8 +12,8 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var USERS = [
     {
-        email: 'josue@platzi.com',
-        password: '123456'
+        email: 'admin',
+        password: 'admin'
     },
     {
         email: 'user@platzi.com',

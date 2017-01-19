@@ -6,10 +6,10 @@ export interface User {
 	password: string
 }
 
-const USERS = [ 
+const USERS = [
 	{
-		email: 'josue@platzi.com',
-		password: '123456'
+		email: 'admin',
+		password: 'admin'
 	},
 	{
 		email: 'user@platzi.com',
